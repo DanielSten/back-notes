@@ -18,7 +18,7 @@ $app->get('/app-1/notes', function (Request $request, Response $response, $args)
     return $response->withHeader('Content-Type', 'application/json');
 });
 
-$app->post('/app-1/notes/create', function (Request $request, Response $response, $args) {
+$app->post('/app-1/note/create', function (Request $request, Response $response, $args) {
 	$data = json_decode((string)$request->getBody());
 
 	$result = [

@@ -29,7 +29,7 @@ Sample response:
 
 ### Adding a new Note
 
-**POST** `/app-1/notes/create`
+**POST** `/app-1/note/create`
 
 Request body (JSON-encoded):
 
