@@ -46,12 +46,12 @@ Sample response:
 {
     "_status": true,
     "note": {
-	    "id": 2,
-	    "title": "Title of a new note",
-	    "text": "Text of a new note",
-	    "created_at": "2022-06-07 22:55:26",
-	    "updated_at": "2022-06-07 22:55:26"
-	}
+        "id": 2,
+        "title": "Title of a new note",
+        "text": "Text of a new note",
+        "created_at": "2022-06-07 22:55:26",
+        "updated_at": "2022-06-07 22:55:26"
+    }
 }
 ```
 
@@ -74,12 +74,12 @@ Sample response:
 {
     "_status": true,
     "note": {
-	    "id": 2,
-	    "title": "Updated title",
-	    "text": "Edited text",
-	    "created_at": "2022-06-07 22:55:26",
-	    "updated_at": "2022-06-07 23:05:56"
-	}
+        "id": 2,
+        "title": "Updated title",
+        "text": "Edited text",
+        "created_at": "2022-06-07 22:55:26",
+        "updated_at": "2022-06-07 23:05:56"
+    }
 }
 ```
 
