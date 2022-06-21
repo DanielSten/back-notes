@@ -76,6 +76,9 @@ $routes = [
 	],
 ];
 
+if($method == 'OPTIONS'){
+	die;
+}
 
 if(array_key_exists($method, $routes)){
 	foreach ($routes[$method] as $route => $action) {
